@@ -12,7 +12,6 @@ min-height: 100vh;
 
 }
 
-
 .BOX
 {
 position: relative;
@@ -73,18 +72,5 @@ display: grid;
     
         
  } 
- .profileText.imgBx img
+ 
 
- {
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: 100%;
-    position:absolute
-    
-    
-    
-    
-     
-         
-  } 
