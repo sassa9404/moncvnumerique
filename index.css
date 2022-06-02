@@ -1,0 +1,90 @@
+
+@import url();
+
+body
+{
+background: beige;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+
+}
+
+
+.BOX
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: #fff;
+margin: 50px;
+grid-template-columns: 1fr 2fr;
+box-decoration-break: 0 35px 55px rgba(0,0,0,0,1);
+display: grid;
+
+
+}
+
+.BOX .cotegauche
+
+{
+    position: relative;
+    background: gray;
+    padding: 20px;
+    
+    
+} 
+.BOX .cotedroit
+
+ {
+    padding: 40px;
+    position: relative;
+    background: white
+    
+        
+ } 
+    
+.profileText
+
+ {
+    
+   position: relative;
+   display: flex;
+   align-items: center;
+   padding-bottom: 20px;
+   flex-direction: column
+   ;
+    
+        
+ } 
+    
+
+ .profileText.imgBx
+
+ {
+    
+   position: relative;
+   border-radius: 40px;
+   height: 20px;
+   border-radius: 50%;
+    
+        
+ } 
+ .profileText.imgBx img
+
+ {
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    position:absolute
+    
+    
+    
+    
+     
+         
+  } 
