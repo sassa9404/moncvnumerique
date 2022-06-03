@@ -3,7 +3,7 @@
 
 body
 {
-background: bisque;
+background: peachpuff;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -14,14 +14,13 @@ min-height:100vh;
 
 .BOX
 {
-position: relative;
-width: 100%;
+
 max-width: 1000px;
 min-height: 1000px;
 background: #fff;
 margin: 50px;
 grid-template-columns: 1fr 2fr;
-box-decoration-break: 0 35px 55px rgba(0,0,0,0,1);
+box-shadow: 0 35px 55px black;
 display: grid;
 
 
@@ -31,46 +30,51 @@ display: grid;
 
 {
     position: relative;
-    background: gray;
+    background: rosybrown;
     padding: 20px;
     
     
 } 
 .BOX .cotedroit
 
- {
-    padding: 40px;
-    position: relative;
-    background: white
+{
+    background: bisque;
     
         
- } 
-    
-.profileText
-
- {
-    
-   position: relative;
-   display: flex;
-   align-items: center;
-   padding-bottom: 20px;
-   flex-direction: column
-   ;
-    
-        
- } 
+} 
     
 
- .profileText.imgBx
+ .profileText
 
- {
-    
-   position: relative;
-   border-radius: 40px;
-   height: 20px;
-   border-radius: 50%;
-    
-        
- } 
+{
+   border-bottom: 1PX solid peachpuff;;
+   color: #fff;     
+} 
  
+   
+ .contactInfo
 
+{ padding-top: 40px;
+ 
+  
+} 
+.title
+
+{ text-transform: uppercase;
+  letter-spacing: 1px;
+  
+} 
+
+.contactInfo ul li .icon
+
+{ 
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #fff;
+  
+} 
+
+
+
+ 
