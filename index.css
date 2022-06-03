@@ -3,7 +3,7 @@
 
 body
 {
-background: bisque
+background: bisque;
 display:flex;
 justify-content:center;
 align-items:center;
