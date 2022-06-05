@@ -1,4 +1,47 @@
 
+section
+{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+
+
+nav
+{
+ 
+  height: 1000px;
+  width: 280px;
+  margin-top: 200px;
+  margin-right: 10px;
+  background-color: 18FFFF;
+  box-shadow: 1px 2px 5px black;
+  border-radius: 5px;
+}
+
+nav h3
+{
+  margin: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  word-wrap: break-word;
+}
+nav ul
+{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+nav li
+{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding: 10px;
+  
+}
+
+
 
 
 body
@@ -7,7 +50,8 @@ background: peachpuff;
 display:flex;
 justify-content:center;
 align-items:center;
-min-height:100vh;
+min-height:100px;
+
 
 
 }
@@ -17,11 +61,10 @@ min-height:100vh;
 
 max-width: 1000px;
 min-height: 1000px;
-background: #fff;
 margin: 50px;
 grid-template-columns: 1fr 2fr;
 box-shadow: 0 35px 55px black;
-display: grid;
+display: grid
 
 
 }
@@ -32,41 +75,96 @@ display: grid;
     position: relative;
     background: rosybrown;
     padding: 20px;
-    
-    
-} 
+   
+   
+}
 .BOX .cotedroit
 
 {
     background: bisque;
-    
-        
-} 
-    
+   
+       
+}
+   
 
  .profileText
 
 {
    border-bottom: 1PX solid peachpuff;;
-   color: #fff;     
-} 
+   color: #fff;  
+   text-align: center;  
+}
  
    
  .contactInfo
 
-{ padding-top: 40px;
- 
-  
-} 
+
 .title
 
-{ text-transform: uppercase;
+{
+  text-transform: uppercase;
   letter-spacing: 1px;
-  
-} 
-
-
-
-
-
  
+}
+
+
+
+
+
+.Parcourspro
+
+{
+  width: 550px;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 20px;
+  padding-top: 100px;
+}
+.Parcourspro h1
+
+{
+  margin: 5px;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-align: center;
+  color: palevioletred
+  
+
+}
+
+
+.Parcourspro h3
+
+{    
+  margin: 5px;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+.block ul
+
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  padding: 1px;
+  padding-left: 0px;
+}
+
+.block li
+
+{
+  
+  font-family: 'Times New Roman', Times, serif;
+  padding: 3px;
+}
+
+
+
