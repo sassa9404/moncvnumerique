@@ -1,23 +1,22 @@
 
-section
+body
 {
-  display: flex;
-  flex-direction: row;
-  margin: 5px;
+background: peachpuff;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100px;
 }
-
 
 
 nav
 {
- 
   height: 1000px;
   width: 280px;
   margin-top: 100px;
   margin-right: 10px;
   background-color: 18FFFF;
   box-shadow: 1px 2px 5px black;
-  
 }
 
 nav h3
@@ -42,19 +41,48 @@ nav li
   
 }
 
-
-
-body
+nav
 {
-background: peachpuff;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100px;
-
-
-
+  color: black;
+  
 }
+
+
+nav a:hover
+{
+  color: blueviolet;
+  font-style: italic;
+}
+
+nav a:visited
+{
+  color: blue;
+}
+
+object
+
+{
+
+  object-position: center;
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  margin: 10px;
+  
+ 
+  
+}
+
+article
+
+{
+
+  object-position: center;
+
+ 
+  
+}
+
 
 .BOX
 {
@@ -78,16 +106,9 @@ display: grid
    
    
 }
-.BOX .cotedroit
 
-{
-    background: bisque;
-   
-       
-}
-   
 
- .profileText
+.profileText 
 
 {
    border-bottom: 1PX solid peachpuff;;
@@ -95,18 +116,24 @@ display: grid
    text-align: center;  
 }
  
-   
- .contactInfo
-
-
-.title
-
+.imgBx
 {
-  text-transform: uppercase;
-  letter-spacing: 1px;
- 
+ box-shadow: black;
 }
 
+.contactInfo
+{
+  text-align: center;
+ }
+
+ 
+
+.BOX .cotedroit
+{
+    background: bisque;
+   
+       
+}
 
 
 
@@ -166,12 +193,13 @@ display: grid
   padding: 3px;
 }
 
-object
-
+.block a:hover
 {
+  color: blueviolet;
+  font-style: italic;
+}
 
-  object-position: center;
-  width: 150px;
-  height: 150px;
-  
+.block a:visited
+{
+  color: blue;
 }
