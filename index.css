@@ -121,12 +121,56 @@ display: grid
  box-shadow: black;
 }
 
+
+
+h2
+
+{
+    font-family: Arial, Helvetica, sans-serif;
+   
+       
+}
+
+h4
+
+{
+    font-family: Arial, Helvetica, sans-serif;
+   
+       
+}
 .contactInfo
 {
   text-align: center;
  }
 
- 
+h3
+
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ ul li span 
+{
+  color:blue;
+ }
+
+
+ .text
+ {
+  margin: 5px;
+ }
+
+ .icon 
+ {
+  color: black;  
+
+ }
+
+.color span
+{
+ color: black;
+
+}
 
 .BOX .cotedroit
 {
@@ -134,6 +178,7 @@ display: grid
    
        
 }
+
 
 
 .Parcourspro
@@ -150,7 +195,7 @@ display: grid
 {
   margin: 5px;
   margin-top: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 40px;
   text-align: center;
   color: palevioletred
@@ -164,7 +209,7 @@ display: grid
 {    
   margin: 5px;
   margin-top: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   text-align: center;
   color: black;
@@ -200,4 +245,10 @@ display: grid
 .block a:visited
 {
   color: blue;
+}
+
+p
+
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
