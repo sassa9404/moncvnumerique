@@ -17,7 +17,7 @@ nav
   margin-right: 10px;
   background-color: 18FFFF;
   box-shadow: 1px 2px 5px black;
-  border-radius: 5px;
+  
 }
 
 nav h3
@@ -166,3 +166,12 @@ display: grid
   padding: 3px;
 }
 
+object
+
+{
+
+  object-position: center;
+  width: 150px;
+  height: 150px;
+  
+}
